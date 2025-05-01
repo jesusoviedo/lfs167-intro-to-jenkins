@@ -1,0 +1,9 @@
+[project]
+name = "intro-to-jenkins"
+version = "0.0.1"
+description = "Curso de introducción a Jenkins"
+readme = "README.md"
+dependencies = [
+    "flask>=3.1.0",
+]
+requires-python = ">=3.13"
