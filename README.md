@@ -1,13 +1,19 @@
 # Curso Introductorio de Jenkins – Notas y Recursos 🧠🛠️
+#### 🧪 Tecnologías
+![Python 3.13](https://img.shields.io/badge/Python-3.13-green?logo=python)
+![Flask](https://img.shields.io/badge/Flask-3.1.0-blue)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 
-![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-blue.svg)
+#### 🛠 Herramientas
 ![Docker](https://img.shields.io/badge/Docker-gray.svg?logo=docker)
 ![Docker Compose](https://img.shields.io/badge/Docker--Compose-gray.svg?logo=docker)
 ![Jenkins](https://img.shields.io/badge/Jenkins-LTS-blue?logo=jenkins&logoColor=white)
-![Python 3.13](https://img.shields.io/badge/Python-3.13-green?logo=python)
 ![uv](https://img.shields.io/badge/uv-gray.svg?logo=uv)
 ![pre-commit](https://img.shields.io/badge/pre--commit-enabled-red.svg)
 
+#### 📄 Licencia
+![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-blue.svg)
 
 Este repositorio contiene mis apuntes, recursos adicionales y ejemplos prácticos relacionados con el curso introductorio de Jenkins ofrecido por [The Linux Foundation](https://training.linuxfoundation.org/). Aquí encontrarás material complementario para reforzar lo aprendido, incluyendo teoría, lecturas recomendadas e instrucciones paso a paso para la instalación de Jenkins.
 
@@ -34,6 +40,11 @@ Este proyecto utiliza [`uv`](https://github.com/astral-sh/uv), una herramienta u
 Con `uv`, es posible instalar, actualizar y compartir paquetes de manera eficiente, sin necesidad de `pip` ni `virtualenv`.
 
 Para ver cómo configuramos el entorno del proyecto, agregamos y eliminamos dependencias, y ejecutamos scripts de forma reproducible, podés consultar el archivo [working-with-uv.md](./docs/working-with-uv.md).
+
+
+## 🌐 Levantar la aplicación Flask
+Este proyecto también incluye una pequeña aplicación web desarrollada con Flask para complementar la parte práctica del curso.
+Si querés ver cómo levantarla en un entorno de desarrollo (activación del entorno, configuración del archivo `.flaskenv`, ejecución, etc.), podés consultar la guía detallada en [`docs/levantar-app-flask.md`](./docs/working-with-flask.md)
 
 
 ## 🤝 Contribuciones
