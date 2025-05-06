@@ -175,3 +175,4 @@ cython_debug/
 
 # lfs167-intro-to-jenkins
 data_jenkis
+.flaskenv
